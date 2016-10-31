@@ -6,27 +6,22 @@
 	overflow-y: auto;
 }
 
-.gridListdemoBasicUsage md-grid-list {
-  margin: 8px; }
+.tools-grid md-grid-list {
+  margin: 8px;
+}
 
-.gridListdemoBasicUsage .gray {
-  background: #f5f5f5; }
+.tools-grid .big-tool {
+  background: #f5f5f5;
+}
 
-.gridListdemoBasicUsage .green {
-  background: #b9f6ca; }
+.tools-grid .utility-tool {
+  background: #84ffff;
+}
 
-.gridListdemoBasicUsage .yellow {
-  background: #ffff8d; }
+.tools-grid .network-tool {
+  background: #ff8a80;
+}
 
-.gridListdemoBasicUsage .blue {
-  background: #84ffff; }
-
-.gridListdemoBasicUsage .purple {
-  background: #b388ff; }
-
-.gridListdemoBasicUsage .red {
-  background: #ff8a80; }
-
-.gridListdemoBasicUsage md-grid-tile {
-  transition: all 400ms ease-out 50ms; }
-  
+.tools-grid md-grid-tile {
+  transition: all 400ms ease-out 50ms;
+}
