@@ -31,7 +31,7 @@
 	width: 64px;
 }
 
-.tools-grid .grid-tile-text .tool-name {
+.tools-grid .grid-tile-content .tool-name {
 	font-size: 1.25em;
 	margin: 3px;
 	padding: 3px 6px;
@@ -39,8 +39,12 @@
 	background-color: rgba(245, 245, 245, 1.0);
 	color: #666666;
 }
+.tools-grid .grid-tile-content.tool-tile:hover .tool-name {
+	background-color: rgba(255, 255, 255, 1.0);
+	color: #000000;
+}
 
-.tools-grid .grid-tile-text .tool-function {
+.tools-grid .grid-tile-content .tool-function {
 	font-size: 0.9em;
 	margin: 3px;
 	padding: 3px 6px;
@@ -49,12 +53,19 @@
 	color: rgba(245, 245, 245, 1.0);
 }
 
-.tools-grid .grid-tile-text .tool-list li {
+.tools-grid .grid-tile-content .tool-list li {
 	font-size: 0.9em;
 	margin: 3px;
-	/*padding: 3px 6px;*/
 	background-color: rgba(245, 245, 245, 1.0);
 	color: #666666;
+}
+.tools-grid .grid-tile-content.tool-tile:hover .tool-list li {
+	background-color: rgba(255, 255, 255, 1.0);
+	color: #000000;
+}
+
+.tools-grid .grid-tile-content.tool-tile {
+	cursor: pointer;
 }
 
 .tools-grid .grid-tile-content:before {
@@ -65,7 +76,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: .3;
+    opacity: .2;
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -73,6 +84,9 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+}
+.tools-grid .grid-tile-content:hover:before {
+	opacity: .8;
 }
 .tools-grid .grid-tile-content.img-hyphe:before {
   background-image: url('../res/hyphe.png');
