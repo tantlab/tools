@@ -25,3 +25,31 @@
 .tools-grid md-grid-tile {
   transition: all 400ms ease-out 50ms;
 }
+
+.tools-grid md-grid-tile-footer {
+	background: rgba(120, 120, 120, .6);
+}
+
+.tools-grid .grid-tile-content {
+	overflow: hidden;
+}
+
+.tools-grid .grid-tile-content:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*z-index: 1;*/
+    opacity: .4;
+    background-image: url('../res/hyphe.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
