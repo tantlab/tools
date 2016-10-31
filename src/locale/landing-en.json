@@ -41,5 +41,13 @@
 	"CSVRINSEREPEAT_LIST": "",
 	"CSVRINSEREPEAT_FOOTER": "CSV Rinse Repeat",
 
+	"ADDITIONAL_TOOLS": "More tools",
+	"OPEN_REFINE": "Open Refine",
+	"CORTEXT": "CorText",
+	"ALTERYX": "Alteryx",
+	"TABLEAU": "Tableau",
+	"RAW": "Raw",
+	"GEPHI": "Gephi",
+
 	"HELLO_WORLD": "Hello World"
 }
