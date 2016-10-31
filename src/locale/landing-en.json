@@ -3,7 +3,7 @@
 
 	"HYPHE_NAME": "Hyphe",
 	"HYPHE_CATCHPHRASE": "Crawl the web",
-	"HYPHE_LIST": "<li>Harvest web data</li><li>Group pages as web entities</li><li>Network of hyperlinks</li><li>Expand and curate your corpus</li>",
+	"HYPHE_LIST": "<li>Harvest web data</li> <li>Group pages as web entities</li> <li>Network of hyperlinks</li> <li>Expand and curate your corpus</li>",
 	"HYPHE_FOOTER": "Hyphe (coming soon)",
 	
 	"TABLE2NET_NAME": "Table2Net",
@@ -11,8 +11,12 @@
 	"TABLE2NET_LIST": "",
 	"TABLE2NET_FOOTER": "Table2Net",
 	
+	"SEEALSOLOGY_NAME": "SeeAlsology",
+	"SEEALSOLOGY_CATCHPHRASE": "Wikipedia \"see also\" networks",
+	"SEEALSOLOGY_LIST": "",
+	"SEEALSOLOGY_FOOTER": "SeeAlsology",
+	
 	"IWANTHUE": "I Want Hue",
-	"SEEALSOLOGY": "SeeAlsology",
 	"MANYLINES": "ManyLines (coming soon)",
 	"SCIENCESCAPE": "ScienceScape",
 	"HELLO_WORLD": "Hello World"
