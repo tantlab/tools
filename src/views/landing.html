@@ -30,7 +30,7 @@
       md-rowspan-sm="2"
       md-colspan-sm="2"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-tcat" layout-align="center center">
+      <div layout layout-fill class="grid-tile-content tool-tile img-tcat" layout-align="center center" ng-click="goTo('https://github.com/digitalmethodsinitiative/dmi-tcat')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/tcat-logo.png"/>
           <div class="tool-name" translate>TCAT_NAME</div>
@@ -39,7 +39,7 @@
         </div>
       </div>
       <md-grid-tile-footer>
-        <p><md-button class="md-primary"><md-icon>help</md-icon> Doc</md-button></p>
+        <md-button class="md-primary" ng-href="https://github.com/digitalmethodsinitiative/dmi-tcat/wiki"><md-icon>help</md-icon> Wiki</md-button>
       </md-grid-tile-footer>
     </md-grid-tile>
 
@@ -50,7 +50,7 @@
       md-rowspan-sm="2"
       md-rowspan-xs="1"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-table2net" layout-align="center center">
+      <div layout layout-fill class="grid-tile-content tool-tile img-table2net" layout-align="center center" ng-click="goTo('http://tools.medialab.sciences-po.fr/table2net/')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/table2net-logo.png"/>
           <div class="tool-name" translate>TABLE2NET_NAME</div>
@@ -59,7 +59,6 @@
         </div>
       </div>
       <md-grid-tile-footer>
-        <p><md-button class="md-primary"><md-icon>help</md-icon> Doc</md-button></p>
       </md-grid-tile-footer>
     </md-grid-tile>
 
@@ -70,7 +69,7 @@
       md-rowspan-sm="2"
       md-rowspan-xs="1"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-seealsology" layout-align="center center">
+      <div layout layout-fill class="grid-tile-content tool-tile img-seealsology" layout-align="center center"  ng-click="goTo('http://tools.medialab.sciences-po.fr/seealsology/')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/seealsology-logo.png"/>
           <div class="tool-name" translate>SEEALSOLOGY_NAME</div>
@@ -79,7 +78,7 @@
         </div>
       </div>
       <md-grid-tile-footer>
-        <p><md-button class="md-primary"><md-icon>help</md-icon> Doc</md-button></p>
+        <md-button class="md-primary" ng-href="https://github.com/densitydesign/strumentalia-seealsology#usage"><md-icon>help</md-icon> Usage</md-button>
       </md-grid-tile-footer>
     </md-grid-tile>
 
@@ -98,7 +97,12 @@
         </div>
       </div>
       <md-grid-tile-footer>
-        <p><md-button class="md-primary"><md-icon>help</md-icon> Doc</md-button></p>
+        <div layout="row">
+          <md-button class="md-primary" ng-href="http://video.itu.dk/video/11465073/web-crawling-with-hyphe-part-1"><md-icon>help</md-icon> Tutorial 1/2</md-button>
+          <md-button class="md-primary" ng-href="http://video.itu.dk/video/11465077/web-crawling-with-hyphe-part-2">2/2</md-button>
+          <md-button class="md-primary" ng-href="http://hyphe.medialab.sciences-po.fr/">Website</md-button>
+          <md-button class="md-primary" ng-href="http://hyphe.medialab.sciences-po.fr/demo/">Demo</md-button>
+        </div>
       </md-grid-tile-footer>
     </md-grid-tile>
 
@@ -108,7 +112,7 @@
       md-rowspan-sm="2"
       md-colspan-sm="2"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-manylines" layout-align="center center">
+      <div layout layout-fill class="grid-tile-content tool-tile img-manylines" layout-align="center center" ng-click="goTo('http://tools.medialab.sciences-po.fr/manylines/')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/manylines-logo.png"/>
           <div class="tool-name" translate>MANYLINES_NAME</div>
@@ -117,7 +121,7 @@
         </div>
       </div>
       <md-grid-tile-footer>
-        <p><md-button class="md-primary"><md-icon>help</md-icon> Doc</md-button></p>
+        <md-button class="md-primary" ng-href="http://medialab.github.io/manylines/"><md-icon>help</md-icon> Documentation</md-button>
       </md-grid-tile-footer>
     </md-grid-tile>
 
@@ -128,7 +132,7 @@
       md-rowspan-sm="2"
       md-rowspan-xs="1"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-sciencescape" layout-align="center center">
+      <div layout layout-fill class="grid-tile-content tool-tile img-sciencescape" layout-align="center center" ng-click="goTo('http://tools.medialab.sciences-po.fr/sciencescape/')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/sciencescape-logo.png"/>
           <div class="tool-name" translate>SCIENCESCAPE_NAME</div>
@@ -137,7 +141,6 @@
         </div>
       </div>
       <md-grid-tile-footer>
-        <p><md-button class="md-primary"><md-icon>help</md-icon> Doc</md-button></p>
       </md-grid-tile-footer>
     </md-grid-tile>
 
@@ -148,7 +151,7 @@
       md-rowspan-sm="2"
       md-rowspan-xs="1"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-iwanthue" layout-align="center center">
+      <div layout layout-fill class="grid-tile-content tool-tile img-iwanthue" layout-align="center center" ng-click="goTo('http://tools.medialab.sciences-po.fr/iwanthue/')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/iwanthue-logo.png"/>
           <div class="tool-name" translate>IWANTHUE_NAME</div>
@@ -157,7 +160,7 @@
         </div>
       </div>
       <md-grid-tile-footer>
-        <p><md-button class="md-primary"><md-icon>help</md-icon> Doc</md-button></p>
+        <p><md-button class="md-primary" ng-href="http://tools.medialab.sciences-po.fr/iwanthue/tutorial.php"><md-icon>help</md-icon> Tutorials</md-button></p>
       </md-grid-tile-footer>
     </md-grid-tile>
 
@@ -168,7 +171,7 @@
       md-rowspan-sm="2"
       md-rowspan-xs="1"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-csvrinserepeat" layout-align="center center">
+      <div layout layout-fill class="grid-tile-content tool-tile img-csvrinserepeat" layout-align="center center" ng-click="goTo('http://tools.medialab.sciences-po.fr/csv-rinse-repeat/')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/csvrinserepeat-logo.png"/>
           <div class="tool-name" translate>CSVRINSEREPEAT_NAME</div>
@@ -177,7 +180,7 @@
         </div>
       </div>
       <md-grid-tile-footer>
-        <p><md-button class="md-primary"><md-icon>help</md-icon> Doc</md-button></p>
+        <p><md-button class="md-primary" ng-href="https://github.com/medialab/csv-rinse-repeat/raw/master/doc/CSV%20Rinse%20Repeat%20at%20CSV%2Cconf%2Cv2.pdf"><md-icon>help</md-icon> PDF Slides</md-button></p>
       </md-grid-tile-footer>
     </md-grid-tile>
 

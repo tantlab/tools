@@ -9,10 +9,12 @@ angular.module('app.landing', ['ngRoute'])
   })
 }])
 
-.controller('LandingController', function($scope, $location, $translate, $translatePartialLoader) {
+.controller('LandingController', function($scope, $location, $window, $translate, $translatePartialLoader) {
   // Translation
   $translatePartialLoader.addPart('landing');
   $translate.refresh();
 
-  
+  $scope.goTo = function(url) {
+  	$window.location.href = url;
+  }
 });
