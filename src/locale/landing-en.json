@@ -1,10 +1,19 @@
 {
 	"TITLE": "TANT-Lab Tools",
-	"HYPHE": "Hyphe (coming soon)",
+
+	"HYPHE_NAME": "Hyphe",
+	"HYPHE_CATCHPHRASE": "Crawl the web",
+	"HYPHE_LIST": "<li>Harvest web data</li><li>Group pages as web entities</li><li>Network of hyperlinks</li><li>Expand and curate your corpus</li>",
+	"HYPHE_FOOTER": "Hyphe (coming soon)",
+	
+	"TABLE2NET_NAME": "Table2Net",
+	"TABLE2NET_CATCHPHRASE": "Extract network from CSV",
+	"TABLE2NET_LIST": "",
+	"TABLE2NET_FOOTER": "Table2Net",
+	
 	"IWANTHUE": "I Want Hue",
 	"SEEALSOLOGY": "SeeAlsology",
 	"MANYLINES": "ManyLines (coming soon)",
 	"SCIENCESCAPE": "ScienceScape",
-	"TABLE2NET": "Table2Net",
 	"HELLO_WORLD": "Hello World"
 }

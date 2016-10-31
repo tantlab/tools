@@ -10,19 +10,8 @@
   margin: 8px;
 }
 
-.tools-grid .big-tool {
-  background: #f5f5f5;
-}
-
-.tools-grid .utility-tool {
-  background: #84ffff;
-}
-
-.tools-grid .network-tool {
-  background: #ff8a80;
-}
-
 .tools-grid md-grid-tile {
+	background-color: rgba(245, 245, 245, 1.0);
   transition: all 400ms ease-out 50ms;
 }
 
@@ -34,6 +23,40 @@
 	overflow: hidden;
 }
 
+.tools-grid .grid-tile-text {
+	z-index: 1;
+}
+
+.tools-grid .grid-tile-text img {
+	width: 64px;
+}
+
+.tools-grid .grid-tile-text .tool-name {
+	font-size: 1.25em;
+	margin: 3px;
+	padding: 3px 6px;
+	display: inline-table;
+	background-color: rgba(245, 245, 245, 1.0);
+	color: #666666;
+}
+
+.tools-grid .grid-tile-text .tool-function {
+	font-size: 0.9em;
+	margin: 3px;
+	padding: 3px 6px;
+	display: inline-table;
+	background-color: #666666;
+	color: rgba(245, 245, 245, 1.0);
+}
+
+.tools-grid .grid-tile-text .tool-list li {
+	font-size: 0.9em;
+	margin: 3px;
+	/*padding: 3px 6px;*/
+	background-color: rgba(245, 245, 245, 1.0);
+	color: #666666;
+}
+
 .tools-grid .grid-tile-content:before {
     content: ' ';
     display: block;
@@ -42,9 +65,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    /*z-index: 1;*/
-    opacity: .4;
-    background-image: url('../res/hyphe.png');
+    opacity: .3;
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -52,4 +73,10 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+}
+.tools-grid .grid-tile-content.img-hyphe:before {
+  background-image: url('../res/hyphe.png');
+}
+.tools-grid .grid-tile-content.img-table2net:before {
+  background-image: url('../res/table2net.png');
 }
