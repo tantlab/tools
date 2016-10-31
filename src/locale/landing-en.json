@@ -26,6 +26,10 @@
 	"SCIENCESCAPE_LIST": "<li>Various scripts</li> <li>Scopus and Web of Science</li>",
 	"SCIENCESCAPE_FOOTER": "ScienceScape",
 	
-	"IWANTHUE": "I Want Hue",
+	"IWANTHUE_NAME": "I Want Hue",
+	"IWANTHUE_CATCHPHRASE": "Distinct colors for data vis",
+	"IWANTHUE_LIST": "",
+	"IWANTHUE_FOOTER": "I Want Hue",
+
 	"HELLO_WORLD": "Hello World"
 }

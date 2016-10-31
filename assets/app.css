@@ -89,3 +89,6 @@
 .tools-grid .grid-tile-content.img-sciencescape:before {
   background-image: url('../res/sciencescape.png');
 }
+.tools-grid .grid-tile-content.img-iwanthue:before {
+  background-image: url('../res/iwanthue.png');
+}
