@@ -31,5 +31,10 @@
 	"IWANTHUE_LIST": "",
 	"IWANTHUE_FOOTER": "I Want Hue",
 
+	"TCAT_NAME": "TCAT",
+	"TCAT_CATCHPHRASE": "Twitter Capture and Analysis Toolset",
+	"TCAT_LIST": "<li>Capture a tweets dataset</li> <li>Refine in different ways</li> <li>Visualize and analyze</li> <li>Export tables or networks</li>",
+	"TCAT_FOOTER": "DMI-TCAT",
+
 	"HELLO_WORLD": "Hello World"
 }
