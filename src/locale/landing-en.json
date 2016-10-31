@@ -16,8 +16,12 @@
 	"SEEALSOLOGY_LIST": "",
 	"SEEALSOLOGY_FOOTER": "SeeAlsology",
 	
+	"MANYLINES_NAME": "ManyLines",
+	"MANYLINES_CATCHPHRASE": "Network narratives",
+	"MANYLINES_LIST": "<li>Upload your network</li> <li>Simplified analysis</li> <li>Build a narrative</li> <li>Publish online</li>",
+	"MANYLINES_FOOTER": "ManyLines",
+	
 	"IWANTHUE": "I Want Hue",
-	"MANYLINES": "ManyLines (coming soon)",
 	"SCIENCESCAPE": "ScienceScape",
 	"HELLO_WORLD": "Hello World"
 }

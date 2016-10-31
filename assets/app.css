@@ -83,3 +83,6 @@
 .tools-grid .grid-tile-content.img-seealsology:before {
   background-image: url('../res/seealsology.png');
 }
+.tools-grid .grid-tile-content.img-manylines:before {
+  background-image: url('../res/manylines.png');
+}
