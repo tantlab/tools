@@ -86,3 +86,6 @@
 .tools-grid .grid-tile-content.img-manylines:before {
   background-image: url('../res/manylines.png');
 }
+.tools-grid .grid-tile-content.img-sciencescape:before {
+  background-image: url('../res/sciencescape.png');
+}

@@ -21,7 +21,11 @@
 	"MANYLINES_LIST": "<li>Upload your network</li> <li>Simplified analysis</li> <li>Build a narrative</li> <li>Publish online</li>",
 	"MANYLINES_FOOTER": "ManyLines",
 	
+	"SCIENCESCAPE_NAME": "ScienceScape",
+	"SCIENCESCAPE_CATCHPHRASE": "Utilities for scientometrics",
+	"SCIENCESCAPE_LIST": "<li>Various scripts</li> <li>Scopus and Web of Science</li>",
+	"SCIENCESCAPE_FOOTER": "ScienceScape",
+	
 	"IWANTHUE": "I Want Hue",
-	"SCIENCESCAPE": "ScienceScape",
 	"HELLO_WORLD": "Hello World"
 }
