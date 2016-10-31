@@ -95,3 +95,6 @@
 .tools-grid .grid-tile-content.img-tcat:before {
   background-image: url('../res/tcat.png');
 }
+.tools-grid .grid-tile-content.img-csvrinserepeat:before {
+  background-image: url('../res/csvrinserepeat.png');
+}

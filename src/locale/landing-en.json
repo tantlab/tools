@@ -36,5 +36,10 @@
 	"TCAT_LIST": "<li>Capture a tweets dataset</li> <li>Refine in different ways</li> <li>Visualize and analyze</li> <li>Export tables or networks</li>",
 	"TCAT_FOOTER": "DMI-TCAT",
 
+	"CSVRINSEREPEAT_NAME": "CSV Rinse Repeat",
+	"CSVRINSEREPEAT_CATCHPHRASE": "Explore CSV with javascript",
+	"CSVRINSEREPEAT_LIST": "",
+	"CSVRINSEREPEAT_FOOTER": "CSV Rinse Repeat",
+
 	"HELLO_WORLD": "Hello World"
 }
