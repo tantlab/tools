@@ -6,6 +6,42 @@
 	overflow-y: auto;
 }
 
+.header {
+	padding: 12px;
+}
+
+.header img{
+	width: 128px;
+	height: 128px;
+}
+
+.header h1 {
+  margin: 12px 0px 0px 0px;
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+}
+
+.header h3 {
+  margin: 0px;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+}
+
+.main-message {
+	padding: 12px;
+  font-weight: 300;	
+}
+
+.content-footer {
+	padding: 12px;
+}
+
+.content-footer img {
+	opacity: .2;
+	margin-left: 60px;
+	height: 128px;
+}
+
 .tools-grid md-grid-list {
   margin: 8px;
 }

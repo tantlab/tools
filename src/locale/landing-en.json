@@ -1,45 +1,40 @@
 {
 	"TITLE": "TANT-Lab Tools",
+	"SUBTITLE": "for digital methods",
+	
+	"MESSAGE": "A curated list of tools for the social science and digital humanities proposed by the <a href=\"http://www.tantlab.aau.dk/\">Techno-Anthropology Lab</a> of Aalborg University.",
 
 	"HYPHE_NAME": "Hyphe",
 	"HYPHE_CATCHPHRASE": "Crawl the web",
 	"HYPHE_LIST": "<li>Harvest web data</li> <li>Group pages as web entities</li> <li>Network of hyperlinks</li> <li>Expand and curate your corpus</li>",
-	"HYPHE_FOOTER": "Hyphe (coming soon)",
 	
 	"TABLE2NET_NAME": "Table2Net",
 	"TABLE2NET_CATCHPHRASE": "Extract network from CSV",
 	"TABLE2NET_LIST": "",
-	"TABLE2NET_FOOTER": "Table2Net",
 	
 	"SEEALSOLOGY_NAME": "SeeAlsology",
 	"SEEALSOLOGY_CATCHPHRASE": "Wikipedia \"see also\" networks",
 	"SEEALSOLOGY_LIST": "",
-	"SEEALSOLOGY_FOOTER": "SeeAlsology",
 	
 	"MANYLINES_NAME": "ManyLines",
 	"MANYLINES_CATCHPHRASE": "Network narratives",
 	"MANYLINES_LIST": "<li>Upload your network</li> <li>Simplified analysis</li> <li>Build a narrative</li> <li>Publish online</li>",
-	"MANYLINES_FOOTER": "ManyLines",
 	
 	"SCIENCESCAPE_NAME": "ScienceScape",
 	"SCIENCESCAPE_CATCHPHRASE": "Utilities for scientometrics",
 	"SCIENCESCAPE_LIST": "<li>Various scripts</li> <li>Scopus and Web of Science</li>",
-	"SCIENCESCAPE_FOOTER": "ScienceScape",
 	
 	"IWANTHUE_NAME": "I Want Hue",
 	"IWANTHUE_CATCHPHRASE": "Distinct colors for data vis",
 	"IWANTHUE_LIST": "",
-	"IWANTHUE_FOOTER": "I Want Hue",
 
 	"TCAT_NAME": "TCAT",
 	"TCAT_CATCHPHRASE": "Twitter Capture and Analysis Toolset",
 	"TCAT_LIST": "<li>Capture a tweets dataset</li> <li>Refine in different ways</li> <li>Visualize and analyze</li> <li>Export tables or networks</li>",
-	"TCAT_FOOTER": "DMI-TCAT",
 
 	"CSVRINSEREPEAT_NAME": "CSV Rinse Repeat",
 	"CSVRINSEREPEAT_CATCHPHRASE": "Explore CSV with javascript",
 	"CSVRINSEREPEAT_LIST": "",
-	"CSVRINSEREPEAT_FOOTER": "CSV Rinse Repeat",
 
 	"ADDITIONAL_TOOLS": "More tools",
 	"OPEN_REFINE": "Open Refine",
