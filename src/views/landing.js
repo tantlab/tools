@@ -17,4 +17,17 @@ angular.module('app.landing', ['ngRoute'])
   $scope.goTo = function(url) {
   	$window.location.href = url;
   }
+
+  $scope.language = $translate.use().toUpperCase()
+
+  $scope.toggleLanguage = function () {
+    if ($translate.use() == 'da') {
+      $translate.use('en')
+      $scope.language = 'EN'
+    } else {
+      $translate.use('da')
+      $scope.language = 'DA'
+    }
+
+  }
 });

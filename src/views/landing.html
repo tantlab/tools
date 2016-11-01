@@ -8,6 +8,11 @@
     <div class="main-message">
       <p translate>MESSAGE</p>
     </div>
+    <div class="settings-area">
+      <md-button class="md-raised" ng-click="toggleLanguage()">
+        <md-icon>language</md-icon> {{language}}
+      </md-button>
+    </div>
     <div flex></div>
     <div class="content-footer">
       <img src="res/aau-logo.png"/>
@@ -30,7 +35,7 @@
       md-rowspan-sm="2"
       md-colspan-sm="2"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-tcat" layout-align="center center" ng-click="goTo('https://github.com/digitalmethodsinitiative/dmi-tcat')">
+      <div layout layout-fill class="grid-tile-content tool-tile img-tcat" layout-align="center center" ng-click="goTo('http://fl-tcat.srv.aau.dk/analysis/')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/tcat-logo.png"/>
           <div class="tool-name" translate>TCAT_NAME</div>
@@ -50,7 +55,7 @@
       md-rowspan-sm="2"
       md-rowspan-xs="1"
     >
-      <div layout layout-fill class="grid-tile-content tool-tile img-table2net" layout-align="center center" ng-click="goTo('http://tools.medialab.sciences-po.fr/table2net/')">
+      <div layout layout-fill class="grid-tile-content tool-tile img-table2net" layout-align="center center" ng-click="goTo('https://tantlab.github.io/table2net/index.html')">
         <div layout="column" layout-padding class="grid-tile-text">
           <img src="res/table2net-logo.png"/>
           <div class="tool-name" translate>TABLE2NET_NAME</div>
