@@ -32,6 +32,10 @@
   font-weight: 300;	
 }
 
+.settings-area {
+	padding-left: 4px;
+}
+
 .content-footer {
 	padding: 12px;
 }
