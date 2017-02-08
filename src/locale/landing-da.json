@@ -2,11 +2,11 @@
 	"TITLE": "TANT-Lab Tools",
 	"SUBTITLE": "til digitale metoder",
 	
-	"MESSAGE": "En kurateret liste over værktøjer til samfundsvidenskabelige og digitale humaniora foreslået af <a href=\"http://www.tantlab.aau.dk/\">Techno-Anthropology Lab</a> in Aalborg University.",
+	"MESSAGE": "En udvalgt liste over værktøjer til samfundsvidenskab og digital humaniora foreslået af <a href=\"http://www.tantlab.aau.dk/\">Techno-Anthropology Lab</a> in Aalborg University.",
 
 	"HYPHE_NAME": "Hyphe",
-	"HYPHE_CATCHPHRASE": "Gennemsøge internettet",
-	"HYPHE_LIST": "<li>Harvest web data</li> <li>Gruppe sider som web enheder</li> <li>Netværk af hyperlinks</li> <li>Udvid og kuratere din corpus</li>",
+	"HYPHE_CATCHPHRASE": "Crawle internettet",
+	"HYPHE_LIST": "<li>Høste web data</li> <li>Gruppere sider som web enheder</li> <li>Netværk af hyperlinks</li> <li>Udvid og organisér dit corpus</li>",
 	
 	"TABLE2NET_NAME": "Table2Net",
 	"TABLE2NET_CATCHPHRASE": "Uddrag netværk fra CSV",
@@ -14,23 +14,23 @@
 	
 	"SEEALSOLOGY_NAME": "SeeAlsology",
 	"SEEALSOLOGY_CATCHPHRASE": "Wikipedia \"see also\" netværk",
-	"SEEALSOLOGY_LIST": "",
+	"SEEALSOLOGY_LIST": "<li>Netværk af Wikipedia sider</li> <li>Enkelt copy/paste værktøj</li> <li>Exporter til Gephi kompatibel fil</li>",
 	
 	"MANYLINES_NAME": "ManyLines",
-	"MANYLINES_CATCHPHRASE": "Networked fortællinger",
+	"MANYLINES_CATCHPHRASE": "Netværk fortællinger",
 	"MANYLINES_LIST": "<li>Upload dit netværk</li> <li>Forenklet analyse</li> <li>Byg en fortælling</li> <li>Udgiv online</li>",
 	
 	"SCIENCESCAPE_NAME": "ScienceScape",
-	"SCIENCESCAPE_CATCHPHRASE": "Hjælpeprogrammer til scientometrics",
+	"SCIENCESCAPE_CATCHPHRASE": "Redskaber til scientometrisk analyse",
 	"SCIENCESCAPE_LIST": "<li>Forskellige scripts</li> <li>Scopus og Web of Science</li>",
 	
 	"IWANTHUE_NAME": "I Want Hue",
-	"IWANTHUE_CATCHPHRASE": "Forskellige farver til data viz",
+	"IWANTHUE_CATCHPHRASE": "Forskellige farver til data visualisering",
 	"IWANTHUE_LIST": "",
 
 	"TCAT_NAME": "TCAT",
 	"TCAT_CATCHPHRASE": "Twitter Capture and Analysis Toolset",
-	"TCAT_LIST": "<li>Fang en tweets datasæt</li> <li>Definer på forskellige måder</li> <li>Visualisere og analysere</li> <li>Eksport tabeller eller netværk</li>",
+	"TCAT_LIST": "<li>Få datasæt fra tweets</li> <li>Videreudvikl på forskellige måder</li> <li>Visualisere og analysere</li> <li>Eksport tabeller eller netværk</li>",
 
 	"CSVRINSEREPEAT_NAME": "CSV Rinse Repeat",
 	"CSVRINSEREPEAT_CATCHPHRASE": "Udforsk CSV med javascript",
@@ -44,5 +44,5 @@
 	"RAW": "Raw",
 	"GEPHI": "Gephi",
 
-	"HELLO_WORLD": "Hej Verden"
+	"HELLO_WORLD": "Hej Verden - TEST"
 }
